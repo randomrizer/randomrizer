@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Randomrizer</string>
+
+    <string name="upload_button">Upload</string>
+    <string name="save_button">Save</string>
+    <string name="randomrize_button">Randomrize</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="options">Options:</string>
+    <string name="noneOption">None</string>
+    <string name="noTextOption">No Text</string>
+    <string name="longArticleOption">Long Article</string>
+
+    <string name="toast1">No image provided!</string>
+    <string name="toast2">"Is this a long article? Please " +
+                                    "select the Long Article option if applicable."</string>
+    <string name="toast3">Split into </string>
+    <string name="toast4">images. Currently showing #1.</string>
+    <string name="toast5">Saved to </string>
+    <string name="toast6">Error occured. Please try again later.</string>
+    <string name="toast7">Exception!</string>
+    <string name="toast8">External storage not writable!</string>
+    <string name="toast9">In processing...Please Wait.</string>
+
+    <string name="about_message">Randomrizer is designed to randomrize an image (obviously).
+        \n\nRandmorized images are easier to distribute, and less readable by computers.
+        \n\nNote: Large images may cause this app to crush. Apply the Long Article option if applicable.
+    </string>
+</resources>

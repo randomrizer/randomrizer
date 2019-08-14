@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Randomrizer</string>
+
+    <string name="upload_button">上傳</string>
+    <string name="save_button">保存</string>
+    <string name="randomrize_button">隨機化</string>
+    <string name="about">關於</string>
+    <string name="language">語言</string>
+    <string name="options">可選:</string>
+    <string name="noneOption">無</string>
+    <string name="noTextOption">無文字</string>
+    <string name="longArticleOption">長文章</string>
+
+    <string name="toast1">沒有圖片！ </string>
+    <string name="toast2">這是一篇長文章嗎？請使用長文章選項。 </string>
+    <string name="toast3">分成了</string>
+    <string name="toast4">張圖像。現在展示第1張。 </string>
+    <string name="toast5">保存到</string>
+    <string name="toast6">錯誤！請稍後再試。 </string>
+    <string name="toast7">異常！ </string>
+    <string name="toast8">外部存儲器不可寫入！ </string>
+    <string name="toast9">處理中...請稍等。</string>
+
+
+    <string name="about_message">Randomrizer旨在隨機化圖像（顯然）。
+        \n\n隨機化的圖像更容易分發，計算機可讀性更低。
+        \n\n注意：大圖像可能會導致此應用程序崩潰。如果適用，請應用長文章選項。
+    </string></resources>

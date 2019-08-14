@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/uploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/randomrizer"
+
+            android:layout_margin="10dp"
+            android:background="@color/iconBLue"
+            android:padding="16dp"
+            android:text="@string/upload_button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/randomrizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:background="@color/iconBLue"
+            android:padding="16dp"
+            android:text="@string/randomrize_button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/saveImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button"
+
+            android:layout_margin="10dp"
+            android:background="@color/iconBLue"
+            android:padding="16dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/options"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:id="@+id/noneOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noneOption"
+            android:checked="true"
+            android:onClick="onOptionButtonClicked"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:id="@+id/noTextOption"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/noTextOption"
+            android:onClick="onOptionButtonClicked"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:id="@+id/longArticleOption"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/longArticleOption"
+            android:onClick="onOptionButtonClicked"
+            android:layout_margin="10dp"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/options"/>
+
+
+</RelativeLayout>
