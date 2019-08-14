@@ -24,7 +24,7 @@ An image processed by Randomrizer will randomly go through the following steps.
 
 ## Download & Install
 
-Please download .apk from the release page.
+Please download .apk from the [release](https://github.com/randomrizer/randomrizer/releases) page.
 
 
 ## Usage
